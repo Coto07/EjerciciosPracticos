@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:book="http://www.example.com/book">
+  <head><title>Book Review</title></head>
+  <body>
+    <book:bookreview> <!-- Usamos el espacio de nombres book -->
+      <book:title>Introducción a XML</book:title> <!-- Usamos el espacio de nombres book -->
+      <table>
+        <tr align="center">
+          <td>Author</td>
+          <td>Price</td>
+          <td>Pages</td>
+          <td>Date</td>
+        </tr>
+        <tr align="left">
+          <td><book:author>Simon St. Laurent</book:author></td> <!-- Usamos el espacio de nombres book -->
+          <td><book:price>31.98</book:price></td> 
+          <td><book:pages>352</book:pages></td> 
+          <td><book:date>1998/01</book:date></td> 
+        </tr>
+      </table>
+    </book:bookreview> <!-- Usamos el espacio de nombres book -->
+  </body>
+</html>
